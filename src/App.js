@@ -81,9 +81,9 @@ function App() {
           This product uses the TMDb API but is not endorsed or certified by TMDb.
         </p>
         <img 
-          src="https://www.themoviedb.org/assets/2/v4/logos/stacked-blue-e3b9b4aa3c06cdd0b2defac1cac73e0d89cf4034c88099791323a6c9f7d6b7f1.svg" 
+          src="/tmdb-logo.svg" 
           alt="TMDb logo" 
-          width="80" 
+          width="100" 
           style={{ margin: '0.5rem auto' }}
         />
         <p>
