@@ -16,7 +16,7 @@ body.dark {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
 }
 
@@ -40,8 +40,8 @@ body.dark .card {
   display: block;
 }
 .card h3 {
+  font-size: clamp(0.8rem, 2vw, 1rem);
   margin: 0.5rem;
-  font-size: 1rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -90,11 +90,17 @@ body.dark .card {
 .search-form input,
 .search-form select,
 .search-form button {
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
   padding: 0.5rem;
-  font-size: 1rem;
 }
 .search-form input {
+  flex: 2;
+}
+.search-form select {
   flex: 1;
+}
+.search-form button {
+  flex: 0.5;
 }
 
 .loader {
