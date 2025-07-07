@@ -78,7 +78,7 @@ function App() {
 
       <footer style={{ marginTop: '2rem', textAlign: 'center', fontSize: '0.8rem', color: '#666' }}>
         <p>
-          This product uses the TMDb API but is not endorsed or certified by TMDb.
+          This product uses the TMDb API but is not endorsed or certified by TMDB.
         </p>
         <img 
           src="/tmdb-logo.svg" 
@@ -87,7 +87,7 @@ function App() {
           style={{ margin: '0.5rem auto' }}
         />
         <p>
-          All movie data, including images, are provided by TMDb and are the property of their respective copyright holders.
+          All movie data, including images, are provided by TMDB and are the property of their respective copyright holders.
         </p>
       </footer>
     </div>
