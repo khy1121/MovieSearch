@@ -3,7 +3,7 @@ import MovieList from '../components/MovieList';
 import Spinner from '../components/Spinner';
 import { Helmet } from 'react-helmet';
 
-const API_KEY = process.env.ac73a444cb8fc6bd14c048bc108672bd;
+const API_KEY = process.env.REACT_APP_TMDB_API_KEY;;
 
 function Home() {
   const [query, setQuery] = useState('');

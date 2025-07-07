@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
-const API_KEY = process.env.ac73a444cb8fc6bd14c048bc108672bd;
+const API_KEY = process.env.REACT_APP_TMDB_API_KEY;
 
 function MovieDetail() {
   const { id } = useParams();
