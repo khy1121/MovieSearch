@@ -1,7 +1,9 @@
 import React from 'react';
 
 function Spinner() {
-  return <p style={{ textAlign: 'center' }}>⏳ 로딩 중...</p>;
+  return (
+    <div className="loader" role="status" aria-live="polite"></div>
+  );
 }
 
 export default Spinner;

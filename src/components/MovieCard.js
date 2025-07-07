@@ -12,9 +12,9 @@ function MovieCard({ movie, isFavorite, onToggleFavorite }) {
           alt={movie.title}
         />
       </Link>
-      <h3>{movie.title}</h3>
-      <button onClick={() => onToggleFavorite(movie)}>
-        {isFavorite ? '⭐ 즐겨찾기 취소' : '☆ 즐겨찾기'}
+      <h3 title={movie.title}>{movie.title}</h3>
+      <button onClick={() => onToggleFavorite(movie)} className="fav-btn">
+        {isFavorite ? '⭐' : '☆'}
       </button>
     </div>
   );
