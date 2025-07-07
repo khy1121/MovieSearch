@@ -6,7 +6,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const API_KEY = 'YOUR_TMDB_API_KEY'; // 👉 발급받은 TMDB API Key로 교체
+  const API_KEY = 'ac73a444cb8fc6bd14c048bc108672bd'; // 👉 발급받은 TMDB API Key로 교체
 
   const searchMovies = async () => {
     if (!query.trim()) return;
