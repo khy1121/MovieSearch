@@ -6,7 +6,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const API_KEY = 'ac73a444cb8fc6bd14c048bc108672bd'; // 👉 발급받은 TMDB API Key로 교체
+  const API_KEY = 'ac73a444cb8fc6bd14c048bc108672bd'; // 실제 Key로 교체
 
   const searchMovies = async () => {
     if (!query.trim()) return;
@@ -75,6 +75,21 @@ function App() {
           </div>
         ))}
       </div>
+
+      <footer style={{ marginTop: '2rem', textAlign: 'center', fontSize: '0.8rem', color: '#666' }}>
+        <p>
+          This product uses the TMDb API but is not endorsed or certified by TMDb.
+        </p>
+        <img 
+          src="https://www.themoviedb.org/assets/2/v4/logos/stacked-blue-e3b9b4aa3c06cdd0b2defac1cac73e0d89cf4034c88099791323a6c9f7d6b7f1.svg" 
+          alt="TMDb logo" 
+          width="80" 
+          style={{ margin: '0.5rem auto' }}
+        />
+        <p>
+          All movie data, including images, are provided by TMDb and are the property of their respective copyright holders.
+        </p>
+      </footer>
     </div>
   );
 }
